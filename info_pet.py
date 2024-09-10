@@ -2,6 +2,10 @@
 def coletar_nome():
     return input("Nome do pet: ")
 
+# Função para coletar idade
+def coletar_idade():
+    return int(input("Idade do pet(em anos): "))
+
 
 
 # Função para coletar informações sobre o pet
@@ -14,7 +18,7 @@ def coletar_informacoes_pet():
     # Coleta da idade do pet, garantindo que seja um número inteiro
     while True:
         try:
-            idade = int(input("Idade do pet (em anos): "))
+            idade = coletar_idade()
             if idade < 0:
                 print("A idade não pode ser negativa. Tente novamente.")
             else:
