@@ -1,9 +1,15 @@
+# Função para coletar nome
+def coletar_nome():
+    return input("Nome do pet: ")
+
+
+
 # Função para coletar informações sobre o pet
 def coletar_informacoes_pet():
     print("Por favor, insira as informações sobre seu pet.")
 
     # Coleta do nome do pet
-    nome = input("Nome do pet: ")
+    nome = coletar_nome()
 
     # Coleta da idade do pet, garantindo que seja um número inteiro
     while True:
