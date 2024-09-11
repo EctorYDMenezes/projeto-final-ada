@@ -17,3 +17,15 @@ Solicita ao usuário que insira o nome do pet.
 **Uso:**  
 ```python
 nome = coletar_nome()
+
+### Função `coletar_idade()`
+
+**Descrição:** 
+Coleta a idade do pet a partir da entrada do usuário. A função garante que a idade seja um número inteiro não negativo e não superior a 50 anos.
+
+**Retorno:**  
+- `int`: A idade do pet em anos.
+
+**Uso:**  
+```python
+nome = coletar_idade()
