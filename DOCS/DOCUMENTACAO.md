@@ -55,3 +55,24 @@ Função principal que solicita ao usuário o nome, a idade e o peso do pet usan
 **Uso:**  
 
     coletar_informacoes_pet()
+
+### Funcionamento
+A função coletar_informacoes_pet() é chamada.
+O usuário é solicitado a inserir o nome, a idade e o peso do pet.
+Cada entrada é validada pelas respectivas funções (`coletar_nome()`, `coletar_idade()` e `coletar_peso()`).
+As informações coletadas são exibidas ao usuário.
+### Exemplo de Execução
+Ao executar o código, o usuário verá o seguinte:
+
+    ```python
+    Por favor, insira as informações sobre seu pet.
+    Nome do pet: Rex
+    Idade do pet (em anos): 5
+    Peso do pet (em kg): 10
+
+    Informações do pet:
+    Nome: Rex
+    Idade: 5 anos
+    Peso: 10.00 kg
+    ```
+
