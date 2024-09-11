@@ -1,0 +1,48 @@
+# Documentação do Projeto - Info de Pets
+
+## Descrição
+
+O projeto é um script Python que coleta informações básicas sobre um pet (nome, idade e peso) e exibe essas informações ao usuário. As funções incluídas garantem que as entradas sejam válidas e estejam dentro de limites razoáveis.
+
+## Estrutura do Código
+
+### Função `coletar_nome()`
+
+**Descrição:**  
+Solicita ao usuário que insira o nome do pet.
+
+**Retorno:**  
+- `str`: O nome do pet inserido pelo usuário.
+
+**Uso:**  
+
+    nome = coletar_nome()
+
+
+### Função `coletar_idade()`
+
+**Descrição:** 
+Coleta a idade do pet a partir da entrada do usuário. A função garante que a idade seja um número inteiro não negativo e não superior a 50 anos.
+
+**Retorno:**  
+- `int`: A idade do pet em anos.
+
+**Uso:**  
+
+    idade = coletar_idade()
+
+### Função `coletar_peso()`
+
+**Descrição:** 
+Coleta o peso do pet a partir da entrada do usuário. A função garante que o peso seja um número de ponto flutuante não negativo e não superior a 500 kg.
+
+**Retorno:**  
+- `float`: O peso do pet em quilogramas.
+
+**Uso:**  
+
+    peso = coletar_peso()
+
+### Notas:
+
+- Se o usuário inserir um valor não numérico ou um valor fora do intervalo permitido, a função solicitará a entrada novamente até que um valor válido seja fornecido.
