@@ -36,13 +36,12 @@ def coletar_informacoes_pet():
     nome = coletar_nome()
     idade = coletar_idade()            
     peso = coletar_peso()
-            
 
     # Exibindo as informações coletadas
     print("\nInformações do pet:")
     print(f"Nome: {nome}")
     print(f"Idade: {idade} anos")
-    print(f"Peso: {peso} kg")
+    print(f"Peso: {peso:.2f} kg")  
 
 # Chama a função para coletar e exibir as informações do pet
 coletar_informacoes_pet()
