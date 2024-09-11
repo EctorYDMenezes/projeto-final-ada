@@ -64,7 +64,7 @@ As informações coletadas são exibidas ao usuário.
 ### Exemplo de Execução
 Ao executar o código, o usuário verá o seguinte:
 
-    ```python
+    ```bash
     Por favor, insira as informações sobre seu pet.
     Nome do pet: Rex
     Idade do pet (em anos): 5
