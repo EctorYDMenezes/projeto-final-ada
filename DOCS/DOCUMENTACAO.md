@@ -15,7 +15,7 @@ Solicita ao usuário que insira o nome do pet.
 - `str`: O nome do pet inserido pelo usuário.
 
 **Uso:**  
-    ```python
+
     nome = coletar_nome()
 
 
@@ -28,5 +28,21 @@ Coleta a idade do pet a partir da entrada do usuário. A função garante que a 
 - `int`: A idade do pet em anos.
 
 **Uso:**  
-    ```python
-    nome = coletar_idade()
+
+    idade = coletar_idade()
+
+### Função `coletar_peso()`
+
+**Descrição:** 
+Coleta o peso do pet a partir da entrada do usuário. A função garante que o peso seja um número de ponto flutuante não negativo e não superior a 500 kg.
+
+**Retorno:**  
+- `float`: O peso do pet em quilogramas.
+
+**Uso:**  
+
+    peso = coletar_peso()
+
+### Notas:
+
+- Se o usuário inserir um valor não numérico ou um valor fora do intervalo permitido, a função solicitará a entrada novamente até que um valor válido seja fornecido.
