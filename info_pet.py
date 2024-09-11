@@ -4,42 +4,39 @@ def coletar_nome():
 
 # Função para coletar idade
 def coletar_idade():
-    return int(input("Idade do pet(em anos): "))
+    while True:
+        try:
+            idade = int(input("Idade do pet (em anos): "))
+            if idade < 0:
+                print("A idade não pode ser negativa. Tente novamente.")
+            elif idade > 50:
+                print("A idade parece muito alta. Verifique e tente novamente.")
+            else:
+                return idade
+        except ValueError:
+            print("Por favor, insira um número válido para a idade.")
 
 # Função para coletar peso
 def coletar_peso():
-    return float(input("Peso do pet (em kg): "))
-
-
+    while True:
+        try:
+            peso = float(input("Peso do pet (em kg): "))
+            if peso < 0:
+                print("O peso não pode ser negativo. Tente novamente.")
+            elif peso > 500:  # Limite superior razoável para o peso
+                print("O peso parece muito alto. Verifique e tente novamente.")
+            else:
+                return peso
+        except ValueError:
+            print("Por favor, insira um número válido para o peso.")
 
 # Função para coletar informações sobre o pet
 def coletar_informacoes_pet():
     print("Por favor, insira as informações sobre seu pet.")
-
-    # Coleta do nome do pet
     nome = coletar_nome()
-
-    # Coleta da idade do pet, garantindo que seja um número inteiro
-    while True:
-        try:
-            idade = coletar_idade()
-            if idade < 0:
-                print("A idade não pode ser negativa. Tente novamente.")
-            else:
-                break
-        except ValueError:
-            print("Por favor, insira um número válido para a idade.")
-
-    # Coleta do peso do pet, garantindo que seja um número flutuante
-    while True:
-        try:
-            peso = coletar_peso()
-            if peso < 0:
-                print("O peso não pode ser negativo. Tente novamente.")
-            else:
-                break
-        except ValueError:
-            print("Por favor, insira um número válido para o peso.")
+    idade = coletar_idade()            
+    peso = coletar_peso()
+            
 
     # Exibindo as informações coletadas
     print("\nInformações do pet:")
