@@ -46,3 +46,12 @@ Coleta o peso do pet a partir da entrada do usuário. A função garante que o p
 ### Notas:
 
 - Se o usuário inserir um valor não numérico ou um valor fora do intervalo permitido, a função solicitará a entrada novamente até que um valor válido seja fornecido.
+
+### Função `coletar_informacoes_pet()`
+
+**Descrição:** 
+Função principal que solicita ao usuário o nome, a idade e o peso do pet usando as funções `coletar_nome()`, `coletar_idade()` e `coletar_peso()`. Em seguida, exibe as informações coletadas.
+
+**Uso:**  
+
+    coletar_informacoes_pet()
