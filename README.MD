@@ -23,3 +23,17 @@ Este projeto é um script Python que coleta e exibe informações sobre um pet. 
    python nome_do_arquivo.py
 
 
+4.Siga as instruções no terminal para inserir as informações do pet.
+
+    ```bash
+    Por favor, insira as informações sobre seu pet.
+    Nome do pet: Rex
+    Idade do pet (em anos): 5
+    Peso do pet (em kg): 12.5
+
+    Informações do pet:
+    Nome: Rex
+    Idade: 5 anos
+    Peso: 12.50 kg
+
+
