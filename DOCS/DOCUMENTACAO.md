@@ -58,13 +58,15 @@ Função principal que solicita ao usuário o nome, a idade e o peso do pet usan
 
 ### Funcionamento
 A função coletar_informacoes_pet() é chamada.
+
 O usuário é solicitado a inserir o nome, a idade e o peso do pet.
 Cada entrada é validada pelas respectivas funções (`coletar_nome()`, `coletar_idade()` e `coletar_peso()`).
 As informações coletadas são exibidas ao usuário.
+
 ### Exemplo de Execução
 Ao executar o código, o usuário verá o seguinte:
 
-    ```bash
+
     Por favor, insira as informações sobre seu pet.
     Nome do pet: Rex
     Idade do pet (em anos): 5
@@ -74,5 +76,11 @@ Ao executar o código, o usuário verá o seguinte:
     Nome: Rex
     Idade: 5 anos
     Peso: 10.00 kg
-    ```
 
+### Considerações
+
+- As funções de validação garantem que a entrada do usuário esteja dentro dos limites esperados e são robustas para lidar com entradas inválidas.
+
+- O código é projetado para ser fácil de entender e modificar conforme necessário.
+
+Para qualquer dúvida ou necessidade de suporte adicional, por favor, entre em contato com o desenvolvedor.
