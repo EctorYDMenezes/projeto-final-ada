@@ -6,6 +6,10 @@ def coletar_nome():
 def coletar_idade():
     return int(input("Idade do pet(em anos): "))
 
+# Função para coletar peso
+def coletar_peso():
+    return float(input("Peso do pet (em kg): "))
+
 
 
 # Função para coletar informações sobre o pet
@@ -29,7 +33,7 @@ def coletar_informacoes_pet():
     # Coleta do peso do pet, garantindo que seja um número flutuante
     while True:
         try:
-            peso = float(input("Peso do pet (em kg): "))
+            peso = coletar_peso()
             if peso < 0:
                 print("O peso não pode ser negativo. Tente novamente.")
             else:
