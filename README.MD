@@ -21,9 +21,7 @@ Este projeto é um script Python que coleta e exibe informações sobre um pet. 
 
    ```bash
    python nome_do_arquivo.py
-
-
-4.Siga as instruções no terminal para inserir as informações do pet.
+4. Siga as instruções no terminal para inserir as informações do pet.
 
     ```bash
     Por favor, insira as informações sobre seu pet.
