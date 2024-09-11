@@ -15,8 +15,9 @@ Solicita ao usuário que insira o nome do pet.
 - `str`: O nome do pet inserido pelo usuário.
 
 **Uso:**  
-```python
-nome = coletar_nome()
+    ```python
+    nome = coletar_nome()
+
 
 ### Função `coletar_idade()`
 
@@ -27,5 +28,5 @@ Coleta a idade do pet a partir da entrada do usuário. A função garante que a 
 - `int`: A idade do pet em anos.
 
 **Uso:**  
-```python
-nome = coletar_idade()
+    ```python
+    nome = coletar_idade()
